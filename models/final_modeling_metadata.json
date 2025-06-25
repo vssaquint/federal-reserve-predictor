@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "name": "Federal Reserve Policy Predictor",
+    "notebooks_completed": [
+      "01_data_collection",
+      "02_exploratory_analysis",
+      "03_feature_engineering"
+    ],
+    "next_notebook": "04_modeling",
+    "created_date": "2025-06-24 14:56:14"
+  },
+  "dataset_info": {
+    "total_samples": 828,
+    "n_features_final": 14,
+    "date_range": {
+      "start": "1956-06-01",
+      "end": "2025-05-01",
+      "duration_years": 68.9
+    },
+    "target_distribution": {
+      "HOLD": 333,
+      "HIKE": 276,
+      "CUT": 219
+    }
+  },
+  "split_info": {
+    "train": {
+      "samples": 715,
+      "date_range": "1956-06 to 2015-12",
+      "percentage_of_total": 86.4,
+      "target_distribution": {
+        "HOLD": 263,
+        "HIKE": 244,
+        "CUT": 208
+      }
+    },
+    "validation": {
+      "samples": 60,
+      "date_range": "2016-01 to 2020-12",
+      "percentage_of_total": 7.2,
+      "target_distribution": {
+        "HOLD": 38,
+        "HIKE": 16,
+        "CUT": 6
+      }
+    },
+    "test": {
+      "samples": 53,
+      "date_range": "2021-01 to 2025-05",
+      "percentage_of_total": 6.4,
+      "target_distribution": {
+        "HOLD": 32,
+        "HIKE": 16,
+        "CUT": 5
+      }
+    }
+  },
+  "feature_engineering_summary": {
+    "original_raw_features": 35,
+    "engineered_features": 124,
+    "after_correlation_filtering": 19,
+    "final_features": 14,
+    "final_reduction_percentage": 88.7
+  },
+  "data_quality": {
+    "missing_values": 0,
+    "data_leakage_fixed": true,
+    "multicollinearity_reduced": true,
+    "feature_scaling_applied": true,
+    "time_series_splits_used": true
+  }
+}

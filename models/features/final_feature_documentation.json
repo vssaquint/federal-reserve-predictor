@@ -1,0 +1,72 @@
+{
+  "gdp_growth_yoy_lag_6": {
+    "rank": 1,
+    "importance_score": 0.0433,
+    "description": "Economic feature for Fed prediction - gdp_growth_yoy_lag_6"
+  },
+  "UNRATE_lag_3": {
+    "rank": 2,
+    "importance_score": 0.0442,
+    "description": "Economic feature for Fed prediction - UNRATE_lag_3"
+  },
+  "unemployment_change": {
+    "rank": 3,
+    "importance_score": 0.063,
+    "description": "Economic feature for Fed prediction - unemployment_change"
+  },
+  "DGS10": {
+    "rank": 4,
+    "importance_score": 0.0743,
+    "description": "Economic feature for Fed prediction - DGS10"
+  },
+  "yield_curve_slope": {
+    "rank": 5,
+    "importance_score": 0.0532,
+    "description": "Economic feature for Fed prediction - yield_curve_slope"
+  },
+  "inflation_yoy": {
+    "rank": 6,
+    "importance_score": 0.0592,
+    "description": "Economic feature for Fed prediction - inflation_yoy"
+  },
+  "gdp_growth_yoy_lag_3": {
+    "rank": 7,
+    "importance_score": 0.0431,
+    "description": "Economic feature for Fed prediction - gdp_growth_yoy_lag_3"
+  },
+  "fed_funds_momentum": {
+    "rank": 8,
+    "importance_score": 0.2585,
+    "description": "Economic feature for Fed prediction - fed_funds_momentum"
+  },
+  "real_fed_funds": {
+    "rank": 9,
+    "importance_score": 0.0525,
+    "description": "Economic feature for Fed prediction - real_fed_funds"
+  },
+  "CPIAUCSL": {
+    "rank": 10,
+    "importance_score": 0.0971,
+    "description": "Economic feature for Fed prediction - CPIAUCSL"
+  },
+  "gdp_growth_yoy": {
+    "rank": 11,
+    "importance_score": 0.0435,
+    "description": "Economic feature for Fed prediction - gdp_growth_yoy"
+  },
+  "employment_growth_yoy": {
+    "rank": 12,
+    "importance_score": 0.0596,
+    "description": "Economic feature for Fed prediction - employment_growth_yoy"
+  },
+  "gdp_growth_yoy_lag_1": {
+    "rank": 13,
+    "importance_score": 0.0595,
+    "description": "Economic feature for Fed prediction - gdp_growth_yoy_lag_1"
+  },
+  "employment_growth_yoy_lag_3": {
+    "rank": 14,
+    "importance_score": 0.0491,
+    "description": "Economic feature for Fed prediction - employment_growth_yoy_lag_3"
+  }
+}

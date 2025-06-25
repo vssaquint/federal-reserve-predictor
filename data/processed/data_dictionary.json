@@ -1,0 +1,19 @@
+{
+  "FEDFUNDS": "Federal Funds Rate (%)",
+  "UNRATE": "Unemployment Rate (%)",
+  "CPIAUCSL": "Consumer Price Index (Inflation base)",
+  "PAYEMS": "Nonfarm Payrolls (thousands)",
+  "GDP": "Gross Domestic Product (billions $)",
+  "DGS10": "10-Year Treasury Rate (%)",
+  "inflation_yoy": "Year-over-year inflation rate (%)",
+  "gdp_growth_yoy": "Year-over-year GDP growth rate (%)",
+  "employment_growth_yoy": "Year-over-year employment growth (%)",
+  "unemployment_change": "12-month change in unemployment rate",
+  "yield_curve_slope": "10-Year Treasury minus Fed Funds Rate",
+  "real_fed_funds": "Fed Funds Rate minus inflation rate",
+  "taylor_rule_rate": "Taylor Rule approximation (%)",
+  "fed_funds_momentum": "3-month change in Fed Funds Rate",
+  "rate_change": "Monthly change in Fed Funds Rate",
+  "rate_change_bps": "Monthly change in Fed Funds Rate (basis points)",
+  "decision": "Rate decision classification (HIKE/CUT/HOLD)"
+}

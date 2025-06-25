@@ -1,0 +1,46 @@
+{
+  "required_files": [
+    "models/trained/final_model_random_forest.pkl",
+    "models/features/feature_scaler_cleaned.pkl",
+    "models/features/label_encoder_cleaned.pkl",
+    "models/trained/final_model_metadata.json",
+    "models/trained/prediction_function.py"
+  ],
+  "dependencies": [
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "scikit-learn>=1.3.0",
+    "joblib>=1.1.0"
+  ],
+  "input_requirements": {
+    "features": [
+      "gdp_growth_yoy_lag_6",
+      "UNRATE_lag_3",
+      "unemployment_change",
+      "DGS10",
+      "yield_curve_slope",
+      "inflation_yoy",
+      "gdp_growth_yoy_lag_3",
+      "fed_funds_momentum",
+      "real_fed_funds",
+      "CPIAUCSL",
+      "gdp_growth_yoy",
+      "employment_growth_yoy",
+      "gdp_growth_yoy_lag_1",
+      "employment_growth_yoy_lag_3"
+    ],
+    "data_types": "All numeric",
+    "scaling": "Applied automatically if required",
+    "missing_values": "Not allowed - all features must be provided"
+  },
+  "output_format": {
+    "decision": "One of: CUT, HOLD, HIKE",
+    "confidence": "Float between 0 and 1",
+    "probabilities": "Dictionary with probability for each class"
+  },
+  "performance_expectations": {
+    "accuracy": "88.7%",
+    "typical_confidence": "To be monitored in production",
+    "model_type": "Random Forest"
+  }
+}

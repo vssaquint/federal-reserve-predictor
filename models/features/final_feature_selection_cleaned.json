@@ -1,0 +1,93 @@
+{
+  "original_features_count": 19,
+  "features_removed_leakage": [
+    "FEDFUNDS"
+  ],
+  "features_removed_correlation": [
+    "UNRATE",
+    "UNRATE_lag_6",
+    "employment_growth_yoy_lag_1",
+    "employment_growth_yoy_lag_6"
+  ],
+  "final_features": [
+    "gdp_growth_yoy_lag_6",
+    "UNRATE_lag_3",
+    "unemployment_change",
+    "DGS10",
+    "yield_curve_slope",
+    "inflation_yoy",
+    "gdp_growth_yoy_lag_3",
+    "fed_funds_momentum",
+    "real_fed_funds",
+    "CPIAUCSL",
+    "gdp_growth_yoy",
+    "employment_growth_yoy",
+    "gdp_growth_yoy_lag_1",
+    "employment_growth_yoy_lag_3"
+  ],
+  "final_features_count": 14,
+  "target_mapping": {
+    "CUT": 0,
+    "HIKE": 1,
+    "HOLD": 2
+  },
+  "feature_importance_cleaned": [
+    {
+      "feature": "fed_funds_momentum",
+      "importance": 0.25850503768208316
+    },
+    {
+      "feature": "CPIAUCSL",
+      "importance": 0.09711418994259144
+    },
+    {
+      "feature": "DGS10",
+      "importance": 0.07427572753792436
+    },
+    {
+      "feature": "unemployment_change",
+      "importance": 0.06299075175887696
+    },
+    {
+      "feature": "employment_growth_yoy",
+      "importance": 0.05958889485486109
+    },
+    {
+      "feature": "gdp_growth_yoy_lag_1",
+      "importance": 0.05949242381680548
+    },
+    {
+      "feature": "inflation_yoy",
+      "importance": 0.059167501222661
+    },
+    {
+      "feature": "yield_curve_slope",
+      "importance": 0.053224690256317285
+    },
+    {
+      "feature": "real_fed_funds",
+      "importance": 0.05249793277367735
+    },
+    {
+      "feature": "employment_growth_yoy_lag_3",
+      "importance": 0.04909217838514131
+    },
+    {
+      "feature": "UNRATE_lag_3",
+      "importance": 0.044189780083725975
+    },
+    {
+      "feature": "gdp_growth_yoy",
+      "importance": 0.04350075099221509
+    },
+    {
+      "feature": "gdp_growth_yoy_lag_6",
+      "importance": 0.043270970488896825
+    },
+    {
+      "feature": "gdp_growth_yoy_lag_3",
+      "importance": 0.043089170204222885
+    }
+  ],
+  "remaining_high_correlations": 2
+}
